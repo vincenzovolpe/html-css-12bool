@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+    Creazione layout griglia 1140
+    colonne 12
+    margine standard destro e sinistro 15px
+    dimensione colonna 95px
+
+*/
+
+.contenitore {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.contenitore::after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+[class *="col-"] {
+    float: left;
+    height: 100px;
+}
+
+/* Inizio Colonne Framework */
+.col-1 {
+    width: calc((100% / 12) * 1);
+}
+
+.col-2 {
+    width: calc((100% / 12) * 2);
+}
+
+.col-3 {
+    width: calc((100% / 12) * 3);
+}
+
+.col-4 {
+    width: calc((100% / 12) * 4);
+}
+
+.col-5 {
+    width: calc((100% / 12) * 5);
+}
+
+.col-6 {
+    width: calc((100% / 12) * 6);
+}
+
+.col-7 {
+    width: calc((100% / 12) * 7);
+}
+
+.col-8 {
+    width: calc((100% / 12) * 8);
+}
+
+.col-9 {
+    width: calc((100% / 12) * 9);
+}
+
+.col-10 {
+    width: calc((100% / 12) * 10);
+}
+
+.col-11 {
+    width: calc((100% / 12) * 11);
+}
+
+.col-12 {
+    width: calc((100% / 12) * 12);
+}
+/* Fine Colonne Framework */
+
+
+/* Inizio margini sinistri per esempio*/
+.margine-sinistro-1 {
+    margin-left: calc((100% / 12) * 1);
+}
+
+.margine-sinistro-2 {
+    margin-left: calc((100% / 12) * 2);
+}
+
+.margine-sinistro-3 {
+    margin-left: calc((100% / 12) * 3);
+}
+
+.margine-sinistro-4 {
+    margin-left: calc((100% / 12) * 4);
+}
+
+.margine-sinistro-5 {
+    margin-left: calc((100% / 12) * 5);
+}
+
+.margine-sinistro-6 {
+    margin-left: calc((100% / 12) * 6);
+}
+
+.margine-sinistro-7 {
+    margin-left: calc((100% / 12) * 7);
+}
+
+.margine-sinistro-8 {
+    margin-left: calc((100% / 12) * 8);
+}
+
+.margine-sinistro-9 {
+    margin-left: calc((100% / 12) * 9);
+}
+
+.margine-sinistro-10 {
+    margin-left: calc((100% / 12) * 10);
+}
+
+.margine-sinistro-11 {
+    margin-left: calc((100% / 12) * 11);
+}
+
+.margine-sinistro-12 {
+    margin-left: calc((100% / 12) * 12);
+}
+/* Fine margini sinistri */
+#header-top{
+    background: lightblue;
+    height: 100px
+}
+
+#header-bottom{
+    background: blue;
+    height:  100px;
+
+}
