@@ -161,56 +161,6 @@ body {
 }
 /* Fine margini sinistra */
 
-/* Inizio margini bottom per esempio*/
-.margine-bottom-1 {
-    margin-bottom: calc((100% / 12) * 1);
-}
-
-.margine-bottom-2 {
-    margin-bottom: calc((100% / 12) * 2);
-}
-
-.margine-bottom-3 {
-    margin-bottom: calc((100% / 12) * 3);
-}
-
-.margine-bottom-4 {
-    margin-bottom: calc((100% / 12) * 4);
-}
-
-.margine-bottom-5 {
-    margin-bottom: calc((100% / 12) * 5);
-}
-
-.margine-bottom-6 {
-    margin-bottom: calc((100% / 12) * 6);
-}
-
-.margine-bottom-7 {
-    margin-bottom: calc((100% / 12) * 7);
-}
-
-.margine-bottom-8 {
-    margin-bottom: calc((100% / 12) * 8);
-}
-
-.margine-bottom-9 {
-    margin-bottom: calc((100% / 12) * 9);
-}
-
-.margine-bottom-10 {
-    margin-bottom: calc((100% / 12) * 10);
-}
-
-.margine-bottom-11 {
-    margin-bottom: calc((100% / 12) * 11);
-}
-
-.margine-bottom-12 {
-    margin-bottom: calc((100% / 12) * 12);
-}
-/* Fine margini bottom */
-
 /* Inizio margini destra per esempio*/
 .margine-destro-1 {
     margin-right: calc((100% / 12) * 1);
@@ -263,6 +213,10 @@ body {
 
 .margine-top-1 {
     margin-top: calc((100% / 12) * 1);
+}
+
+.margine-bottom-1 {
+    margin-bottom: calc((100% / 12) * 1);
 }
 
 #header-top {
