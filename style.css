@@ -11,8 +11,12 @@
 
 */
 
+body {
+    background-color: gainsboro;
+}
+
 .contenitore {
-  max-width: 1140px;
+  width: 1170px;
   margin: 0 auto;
 }
 
@@ -25,7 +29,36 @@
 [class *="col-"] {
     float: left;
     height: 100px;
+    border: 1px solid black;
 }
+
+
+/* Posizioni */
+
+.sinistra {
+  text-align: left;
+}
+
+.destra {
+  text-align: right;
+}
+
+.centro {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centro-contenitore {
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* Fine posizioni */
+
 
 /* Inizio Colonne Framework */
 .col-1 {
@@ -78,7 +111,7 @@
 /* Fine Colonne Framework */
 
 
-/* Inizio margini sinistri per esempio*/
+/* Inizio margini sinistra per esempio*/
 .margine-sinistro-1 {
     margin-left: calc((100% / 12) * 1);
 }
@@ -126,14 +159,148 @@
 .margine-sinistro-12 {
     margin-left: calc((100% / 12) * 12);
 }
-/* Fine margini sinistri */
-#header-top{
-    background: lightblue;
-    height: 100px
+/* Fine margini sinistra */
+
+/* Inizio margini bottom per esempio*/
+.margine-bottom-1 {
+    margin-bottom: calc((100% / 12) * 1);
 }
 
-#header-bottom{
-    background: blue;
-    height:  100px;
+.margine-bottom-2 {
+    margin-bottom: calc((100% / 12) * 2);
+}
 
+.margine-bottom-3 {
+    margin-bottom: calc((100% / 12) * 3);
+}
+
+.margine-bottom-4 {
+    margin-bottom: calc((100% / 12) * 4);
+}
+
+.margine-bottom-5 {
+    margin-bottom: calc((100% / 12) * 5);
+}
+
+.margine-bottom-6 {
+    margin-bottom: calc((100% / 12) * 6);
+}
+
+.margine-bottom-7 {
+    margin-bottom: calc((100% / 12) * 7);
+}
+
+.margine-bottom-8 {
+    margin-bottom: calc((100% / 12) * 8);
+}
+
+.margine-bottom-9 {
+    margin-bottom: calc((100% / 12) * 9);
+}
+
+.margine-bottom-10 {
+    margin-bottom: calc((100% / 12) * 10);
+}
+
+.margine-bottom-11 {
+    margin-bottom: calc((100% / 12) * 11);
+}
+
+.margine-bottom-12 {
+    margin-bottom: calc((100% / 12) * 12);
+}
+/* Fine margini bottom */
+
+/* Inizio margini destra per esempio*/
+.margine-destro-1 {
+    margin-right: calc((100% / 12) * 1);
+}
+
+.margine-destro-2 {
+    margin-right: calc((100% / 12) * 2);
+}
+
+.margine-destro-3 {
+    margin-right: calc((100% / 12) * 3);
+}
+
+.margine-destro-4 {
+    margin-right: calc((100% / 12) * 4);
+}
+
+.margine-destro-5 {
+    margin-right: calc((100% / 12) * 5);
+}
+
+.margine-destro-6 {
+    margin-right: calc((100% / 12) * 6);
+}
+
+.margine-destro-7 {
+    margin-right: calc((100% / 12) * 7);
+}
+
+.margine-destro-8 {
+    margin-right: calc((100% / 12) * 8);
+}
+
+.margine-destro-9 {
+    margin-right: calc((100% / 12) * 9);
+}
+
+.margine-destro-10 {
+    margin-right: calc((100% / 12) * 10);
+}
+
+.margine-destro-11 {
+    margin-right: calc((100% / 12) * 11);
+}
+
+.margine-destro-12 {
+    margin-right: calc((100% / 12) * 12);
+}
+/* Fine margini destra */
+
+.margine-top-1 {
+    margin-top: calc((100% / 12) * 1);
+}
+
+#header-top {
+    background-color: blue;
+    height: 100px;
+}
+
+#header-bottom {
+    background-color: lightblue;
+    height: 100px;
+}
+
+#sidebar-left {
+    background-color: aqua;
+    height: 600px;
+}
+
+.widget {
+    background-color: green;
+    height: 300px;
+}
+
+#main-content-top {
+    background-color: honeydew;
+    height: 600px;
+}
+
+
+#footer-top {
+    background-color: red;
+    height: 100px;
+}
+
+#footer-bottom {
+    background-color: darkred;
+    height: 100px;
+}
+#spot {
+    background-color: gold;
+    height: 300px;
 }
