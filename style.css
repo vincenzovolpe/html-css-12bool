@@ -156,9 +156,6 @@ body {
     margin-left: calc((100% / 12) * 11);
 }
 
-.margine-sinistro-12 {
-    margin-left: calc((100% / 12) * 12);
-}
 /* Fine margini sinistra */
 
 /* Inizio margini destra per esempio*/
@@ -206,9 +203,6 @@ body {
     margin-right: calc((100% / 12) * 11);
 }
 
-.margine-destro-12 {
-    margin-right: calc((100% / 12) * 12);
-}
 /* Fine margini destra */
 
 .margine-top-1 {
